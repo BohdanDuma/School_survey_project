@@ -13,7 +13,7 @@ scales = {
         'Провина': {'Q8':'+', 'Q16':'+', 'Q24':'+', 'Q32':'+', 'Q40':'+', 'Q47':'+', 'Q54':'+', 'Q61':'+', 'Q7':'+'}
     }
 def calc_agression(df: pd.DataFrame) -> pd.DataFrame:
-    df_calc = df[['name', 'class', 'gender', 'Sport_YN', 'Kind_sport']].copy()
+    df_calc = df[['name', 'class', 'gender', 'Sport_YN']].copy()
     for scale_name,keys in scales.items():
         score = 0
         for q_key, expected in keys.items():
