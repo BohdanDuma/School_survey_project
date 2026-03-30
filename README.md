@@ -33,3 +33,5 @@ school-survey-project
 │
 ├── README.md
 └── requirements.txt
+
+This project is based on a real-world workflow. All sensitive data has been anonymized or replaced with synthetic data to ensure privacy and confidentiality.
